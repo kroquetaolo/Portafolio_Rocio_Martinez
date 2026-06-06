@@ -1,0 +1,106 @@
+[
+    {
+        "images": ["home/ilustracion_virgen.png"],
+        "subtitle_es": "Ilustración",
+        "subtitle_en": "Illustration",
+        "title_es": "Catedral en Llamas",
+        "title_en": "Cathedral on Fire",
+        "description_es": "Una ilustración digital en planos para grabado sobre linóleo.",
+        "description_en": "A digital illustration with flat shapes for linoleum printmaking.",
+        "position": "center 50%"
+    },
+    {
+        "images": ["home/ilustracion_carta.png"],
+        "subtitle_es": "Ilustración",
+        "subtitle_en": "Illustration",
+        "title_es": "Gato Bailarín",
+        "title_en": "Dancing Cat",
+        "description_es": "Una tarjeta de un conjunto de diez tarjetas independientes.",
+        "description_en": "A card from a set of ten independent cards.",
+        "position": "50% 25%"
+    },
+    {
+        "images": [
+            "home/boceto_portada_dos.png",
+            "home/boceto_portada_tres.png",
+            "home/boceto_portada.png"
+        ],
+        "subtitle_es": "Boceto",
+        "subtitle_en": "Sketch",
+        "title_es": "Un elefante ocupa mucho espacio",
+        "title_en": "Un elefante ocupa mucho espacio",
+        "description_es": "Portada para libro infantil.",
+        "description_en": "Cover design for a children's book.",
+        "position": "center 35%"
+    },
+    {
+        "images": ["home/boceto_toro.png"],
+        "subtitle_es": "Boceto",
+        "subtitle_en": "Sketch",
+        "title_es": "Toro vs Puma",
+        "title_en": "Bull vs Puma",
+        "description_es": "",
+        "description_en": "",
+        "position": "center 20%"
+    },
+    {
+        "images": ["home/character_sheet_circenses.png"],
+        "subtitle_es": "Character Sheet",
+        "subtitle_en": "Character Sheet",
+        "title_es": "Circenses Libro",
+        "title_en": "Circenses Book",
+        "description_es": "Hoja de personajes de “Un elefante ocupa mucho espacio”.",
+        "description_en": "Character sheet for “Un elefante ocupa mucho espacio”.",
+        "position": "center 10%"
+    },
+    {
+        "images": ["home/character_sheet_tiefling.png"],
+        "subtitle_es": "Character Sheet",
+        "subtitle_en": "Character Sheet",
+        "title_es": "Tiefling",
+        "title_en": "Tiefling",
+        "description_es": "Personaje del videojuego Baldur's Gate 3.",
+        "description_en": "Character from the video game Baldur's Gate 3.",
+        "position": "center center"
+    },
+    {
+        "images": ["home/ilustracion_editorial_guarda.png"],
+        "subtitle_es": "Ilustración Editorial",
+        "subtitle_en": "Editorial Illustration",
+        "title_es": "Un elefante ocupa mucho espacio",
+        "title_en": "Un elefante ocupa mucho espacio",
+        "description_es": "Guarda para libro infantil.",
+        "description_en": "Endpaper illustration for a children's book.",
+        "position": "center 80%"
+    },
+    {
+        "images": ["home/ilustracion_editorial_animales.png"],
+        "subtitle_es": "Ilustración Editorial",
+        "subtitle_en": "Editorial Illustration",
+        "title_es": "Un elefante ocupa mucho espacio",
+        "title_en": "Un elefante ocupa mucho espacio",
+        "description_es": "Ilustración para libro.",
+        "description_en": "Book illustration.",
+        "position": "center bottom"
+    },
+    {
+        "images": ["home/retrato_moon.png"],
+        "subtitle_es": "Retrato",
+        "subtitle_en": "Portrait",
+        "title_es": "Moon",
+        "title_en": "Moon",
+        "description_es": "Ilustración; retrato realista de mascota.",
+        "description_en": "Illustration; realistic pet portrait.",
+        "position": "center 55%"
+    },
+    {
+        "images": ["home/retrato_ranga.png"],
+        "subtitle_es": "Retrato",
+        "subtitle_en": "Portrait",
+        "title_es": "Ranga",
+        "title_en": "Ranga",
+        "description_es": "Ilustración; retrato realista de mascota.",
+        "description_en": "Illustration; realistic pet portrait.",
+        "position": "50% 55%"
+    }
+]

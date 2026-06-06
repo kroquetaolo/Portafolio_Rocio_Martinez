@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@font-face {
+    font-family: "Averta";
+    src: url("./assets/fonts/Averta-Regular.otf");
+}
+
+:root {
+    --background: #0e0e0e;
+    --white: #f1f1f1;
+
+    --primary: #a78bfa;
+    --secondary: #c4b5fd;
+    --accent: #8b5cf6;
+    --accent-strong: #7c3aed;
+
+    --text-primary: #f5f3ff;
+    --text-secondary: #b4b0d0;
+    --text-muted: #8b87a8;
+
+    --border: #503f58;
+    --hover: #9f7aea;
+    --glow: rgba(167, 139, 250, 0.4);
+    --background-lightbox: rgba(20, 16, 30, 0.92);
+
+    --botton-color: rgba(17, 17, 17, 0.8);
+
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    color: var(--text-primary);
+    background-color: var(--background);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow: hidden auto;
+}
+
+.no-scroll {
+    overflow: hidden hidden;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: relative;
+    animation: rotate 1s linear infinite
+}
+
+.loader::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    inset: 0px;
+    border-radius: 50%;
+    border: 5px solid #FFF;
+    animation: prixClipFix 2s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes prixClipFix {
+    0% {
+        clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0)
+    }
+
+    25% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0)
+    }
+
+    50% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%)
+    }
+
+    75% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%)
+    }
+
+    100% {
+        clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0)
+    }
+}

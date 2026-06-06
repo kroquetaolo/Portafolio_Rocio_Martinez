@@ -1,0 +1,58 @@
+{
+    "after":{    
+        "images": [
+            "skills/csp-example.png"
+        ],
+        "name": "After Effects",
+        "description": "Motion graphics y animación",
+        "proficiency": 3
+    },
+    "capcut":{    
+        "images": [
+            "skills/csp-example.png"
+        ],
+        "name": "CapCut",
+        "description": "Edición de videos",
+        "proficiency": 3
+    },
+    "csp":{    
+        "images": [
+            "skills/csp-example.png"
+        ],
+        "name": "Clip Studio Paint",
+        "description": "Ilustración y Animación",
+        "proficiency": 4.5
+    },
+    "ilustrator":{    
+        "images": [
+            "skills/csp-example.png"
+        ],
+        "name": "Illustrator",
+        "description": "Diseño vectorial, identidad visual y material editorial",
+        "proficiency": 4
+    },
+    "indesign":{    
+        "images": [
+            "skills/csp-example.png"
+        ],
+        "name": "InDesign",
+        "description": "Diseño editorial para libros y revistas",
+        "proficiency": 4.5
+    },
+    "lightroom":{    
+        "images": [
+            "skills/csp-example.png"
+        ],
+        "name": "Lightroom",
+        "description": "Edición de imagenes",
+        "proficiency": 4
+    },
+    "photoshop":{    
+        "images": [
+            "skills/csp-example.png"
+        ],
+        "name": "Photoshop",
+        "description": "Edición de imagenes, creación contenido para reds y branding",
+        "proficiency": 5
+    }
+}

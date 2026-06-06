@@ -1,0 +1,473 @@
+{
+    "Illustrations": [
+        {
+            "images": [
+                "ilustraciones/virgen.png"
+            ],
+            "subtitle": "Illustration",
+            "title": "Cathedral on Fire",
+            "info": "A digital illustration with flat shapes for linoleum printmaking.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "ilustraciones/music_cat.png"
+            ],
+            "subtitle": "Illustration",
+            "title": "Dancing Cat",
+            "info": "A card from a set of ten independent cards.",
+            "position": "center 25%"
+        },
+        {
+            "images": [
+                "ilustraciones/fire.png"
+            ],
+            "subtitle": "Illustration",
+            "title": "Forest Fire",
+            "info": "",
+            "position": "right 35%"
+        },
+        {
+            "images": [
+                "ilustraciones/horse.png"
+            ],
+            "subtitle": "Illustration",
+            "title": "Horse",
+            "info": "A card from a set of ten independent cards.",
+            "position": "center 0"
+        },
+        {
+            "images": [
+                "ilustraciones/iwanos.jpg"
+            ],
+            "subtitle": "Illustration",
+            "title": "Geckos",
+            "info": "",
+            "position": "33% 10%"
+        },
+        {
+            "images": [
+                "ilustraciones/pretty_woman.png"
+            ],
+            "subtitle": "Illustration",
+            "title": "Lady of the River",
+            "info": "",
+            "position": "center 30%"
+        },
+        {
+            "images": [
+                "ilustraciones/redcatforest.png"
+            ],
+            "subtitle": "Illustration",
+            "title": "Cat in the Forest",
+            "info": "Illustration created for woodcut printmaking.",
+            "position": "center bottom"
+        },
+        {
+            "images": [
+                "ilustraciones/renacim.png"
+            ],
+            "subtitle": "Illustration",
+            "title": "Renaissance",
+            "info": "",
+            "position": "center bottom"
+        },
+        {
+            "images": [
+                "ilustraciones/wat.png"
+            ],
+            "subtitle": "Illustration",
+            "title": "Lady of the River",
+            "info": "",
+            "position": "center 30%"
+        },
+        {
+            "images": [
+                "ilustraciones/why.png"
+            ],
+            "subtitle": "Illustration",
+            "title": "Dark Forest",
+            "info": "",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "ilustraciones/wipwhit.png"
+            ],
+            "subtitle": "Illustration",
+            "title": "OC Commission",
+            "info": "",
+            "position": "45% 100%"
+        }
+    ],
+    "Sketches": [
+        {
+            "images": [
+                "bocetos/aeropuerto.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Airport",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "bocetos/aikanaro.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Aikanaro",
+            "info": "OC Commission.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "bocetos/al_suelo_hd.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Tamed Ringmaster",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "75% center"
+        },
+        {
+            "images": [
+                "bocetos/animales_unidos.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Gathered Animals",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "left 50%"
+        },
+        {
+            "images": [
+                "bocetos/arrastrate.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Tamed Ringmaster",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "bocetos/elefante_domando.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Rebellious Elephant",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "bocetos/gato_madres.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Madres Plaza de Mayo",
+            "info": "Illustration created for woodcut printmaking.",
+            "position": "right 50%"
+        },
+        {
+            "images": [
+                "bocetos/libertad.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Rebellious Elephant",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "right 50%"
+        },
+        {
+            "images": [
+                "bocetos/madres_dos.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Madres Plaza de Mayo",
+            "info": "Illustration created for woodcut printmaking.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "bocetos/mar_y_serpiente.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "El Mar & La Serpiente",
+            "info": "Sketch for a book cover.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "bocetos/night.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Necromancer",
+            "info": "Independent illustration sketch.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "bocetos/portada.png",
+                "bocetos/portada_tres.png",
+                "bocetos/portada_dos.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Cover",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "45% 20%"
+        },
+        {
+            "images": [
+                "bocetos/tiefling.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Tiefling",
+            "info": "Character design sketch.",
+            "position": "center 10%"
+        },
+        {
+            "images": [
+                "bocetos/torito.png"
+            ],
+            "subtitle": "Sketch",
+            "title": "Bull vs Puma",
+            "info": "",
+            "position": "30% 50%"
+        }
+    ],
+    "Editorial Illustrations": [
+        {
+            "images": [
+                "editorial/payasos salto.png"
+            ],
+            "subtitle": "Editorial Illustration",
+            "title": "Clowns",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "right 10%"
+        },
+        {
+            "images": [
+                "editorial/pint cirquero y loro.png"
+            ],
+            "subtitle": "Editorial Illustration",
+            "title": "Ringmaster and Parrot",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "right 50%"
+        },
+        {
+            "images": [
+                "editorial/principal.png"
+            ],
+            "subtitle": "Editorial Illustration",
+            "title": "Endpaper",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "35% 50%"
+        },
+        {
+            "images": [
+                "editorial/principal2.png"
+            ],
+            "subtitle": "Editorial Illustration",
+            "title": "Airport",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "85% 50%"
+        },
+        {
+            "images": [
+                "editorial/sccene3.png"
+            ],
+            "subtitle": "Editorial Illustration",
+            "title": "Free Lion",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "80% bottom"
+        },
+        {
+            "images": [
+                "editorial/scene 1color.png"
+            ],
+            "subtitle": "Editorial Illustration",
+            "title": "Dream of Freedom",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "left 50%"
+        },
+        {
+            "images": [
+                "editorial/SCENE6b.png"
+            ],
+            "subtitle": "Editorial Illustration",
+            "title": "Ringmaster and Victor",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "editorial/SCENEee pisandopng.png"
+            ],
+            "subtitle": "Editorial Illustration",
+            "title": "Ringmaster and Victor",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "center 50%"
+        }
+    ],
+    "Portraits": [
+        {
+            "images": [
+                "retratos/cat.png"
+            ],
+            "subtitle": "Portrait",
+            "title": "Milo",
+            "info": "Illustration; realistic pet portrait.",
+            "position": "85% 50%"
+        },
+        {
+            "images": [
+                "retratos/dfghj.png"
+            ],
+            "subtitle": "Portrait",
+            "title": "Floppy",
+            "info": "Illustration; realistic pet portrait.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "retratos/lokuko.png"
+            ],
+            "subtitle": "Portrait",
+            "title": "Portrait",
+            "info": "Illustration; realistic human portrait.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "retratos/moon.png"
+            ],
+            "subtitle": "Portrait",
+            "title": "Moon",
+            "info": "Illustration; realistic pet portrait.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "retratos/ranga.png"
+            ],
+            "subtitle": "Portrait",
+            "title": "Ranga",
+            "info": "Illustration; realistic pet portrait.",
+            "position": "center 50%"
+        }
+    ],
+    "Character Sheets": [
+        {
+            "images": [
+                "character_sheet/argonian.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "Argonian",
+            "info": "OC design.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "character_sheet/character2.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "Brand Mascot",
+            "info": "Character design sketch for Proyecta.",
+            "position": "5% 50%"
+        },
+        {
+            "images": [
+                "character_sheet/Chelodesing.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "Khajiita",
+            "info": "OC character design.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "character_sheet/cirquero.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "Ringmaster",
+            "info": "OC character design for Un elefante ocupa mucho espacio.",
+            "position": "left 50%"
+        },
+        {
+            "images": [
+                "character_sheet/cirqueros.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "Book Characters",
+            "info": "Character designs for Un elefante ocupa mucho espacio.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "character_sheet/leon.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "Lion",
+            "info": "Character design for Un elefante ocupa mucho espacio.",
+            "position": "95% 50%"
+        },
+        {
+            "images": [
+                "character_sheet/loroyoso.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "Parrot and Bear",
+            "info": "Character designs for Un elefante ocupa mucho espacio.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "character_sheet/nh2.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "OC",
+            "info": "Character design.",
+            "position": "left 50%"
+        },
+        {
+            "images": [
+                "character_sheet/ref1night+color.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "Night",
+            "info": "Character design.",
+            "position": "center 30%"
+        },
+        {
+            "images": [
+                "character_sheet/tiefling.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "Tiefling",
+            "info": "Character design for the video game Baldur's Gate 3.",
+            "position": "center 20%"
+        },
+        {
+            "images": [
+                "character_sheet/tigre.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "Tiger",
+            "info": "Character design for Un elefante ocupa mucho espacio.",
+            "position": "70% 50%"
+        },
+        {
+            "images": [
+                "character_sheet/vdv.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "OC",
+            "info": "Character design.",
+            "position": "center 50%"
+        },
+        {
+            "images": [
+                "character_sheet/victor elefante.png"
+            ],
+            "subtitle": "Character Sheet",
+            "title": "Victor the Elephant",
+            "info": "Character design for Un elefante ocupa mucho espacio.",
+            "position": "center 50%"
+        }
+    ]
+}
