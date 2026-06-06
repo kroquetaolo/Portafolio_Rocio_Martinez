@@ -95,6 +95,11 @@
 
 }
 
+.front-image-picture {
+    object-fit: cover;
+    object-position: top center;
+}
+
 .front-image svg {
     display: block;
     margin-bottom: 36px;
@@ -223,7 +228,7 @@
     justify-content: center;
     align-items: center;
 }
-    
+
 .home-skills-svg-text {
     margin-top: 4px;
     text-align: center;

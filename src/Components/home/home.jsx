@@ -49,9 +49,11 @@ const Home = () => {
                             </clipPath>
                         </defs>
                         <image
+                            className="front-image-picture"
                             href={"/images/home/frontimage.png"}
                             width="776.86"
-                            height="629"
+                            height="1000"
+                            y="-45"
                             clipPath="url(#blob)"
                             preserveAspectRatio="xMidYMid slice"
                         />
