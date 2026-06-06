@@ -49,7 +49,7 @@ const Home = () => {
                             </clipPath>
                         </defs>
                         <image
-                            href={"public/images/home/frontimage.png"}
+                            href={"/images/home/frontimage.png"}
                             width="776.86"
                             height="629"
                             clipPath="url(#blob)"

@@ -32,7 +32,6 @@ const Works = () => {
 
     return (
         <React.Fragment>
-
             <section className='work-frontpage'>
                 <h1>
                     <FaPaw /> {get("title-jobs")} <FaPaw />

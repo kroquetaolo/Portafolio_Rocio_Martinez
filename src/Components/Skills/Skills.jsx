@@ -5,10 +5,21 @@ import CardsSkills from '../Cards/CardsSkills'
 import { FaPaw } from "react-icons/fa";
 
 const Skills = () => {
+    const workinprogress = true;
+    const workinprogress_image = '/images/workinprogress.png'
 
     const firstKey = Object.keys(config)[0]
     const [section, setSection] = useState(firstKey)
-
+    if (workinprogress) {
+        return (
+            <section className="work-frontpage">
+                <h1><FaPaw/> Habilidades <FaPaw/></h1>
+                <div className="work-in-progress">
+                    <img src={workinprogress_image} alt="Work in progress" />
+                </div>
+            </section>
+        );
+    }
     return (
         <React.Fragment>
             <section className='fullskills-frontpage'>

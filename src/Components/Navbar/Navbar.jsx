@@ -4,7 +4,6 @@ import { useContext, useEffect, useState } from "react";
 import "./Navbar.css";
 import Cat from "../Cat/Cat";
 import Socialmedia from "../Socialmedia/Socialmedia";
-import config from "../../lang.json";
 import LangButton from "../LangButton/LangButton";
 import { LanguageContext } from "../Language/LanguageContext";
 
@@ -46,7 +45,7 @@ const Navbar = () => {
                     <li> <NavLink to="/" onClick={closeMenu}> {get("home")} </NavLink></li>
                     <li><NavLink to="/works" onClick={closeMenu}> {get("projects")} </NavLink></li>
                     <li> <NavLink to="/skills" onClick={closeMenu}> {get("skills")} </NavLink></li>
-                    <li> <a href={config.link_whatsapp} target="_blank" onClick={closeMenu}> {get("contact")} </a></li>
+                    <li> <a href={get("link_whatsapp")} target="_blank" onClick={closeMenu}> {get("contact")} </a></li>
                     <Socialmedia />
                 </ul>
             </nav>
