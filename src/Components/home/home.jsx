@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react"
 import './home.css'
-import frontimage from '../../assets/img/frontimage.png'
 import cards_works from '../../cards_home.json'
 import Cards from "../Cards/Cards"
 import { NavLink } from "react-router-dom"
@@ -50,7 +49,7 @@ const Home = () => {
                             </clipPath>
                         </defs>
                         <image
-                            href={frontimage}
+                            href={"public/images/home/frontimage.png"}
                             width="776.86"
                             height="629"
                             clipPath="url(#blob)"
