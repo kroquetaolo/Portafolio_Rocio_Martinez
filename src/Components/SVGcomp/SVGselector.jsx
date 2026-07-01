@@ -12,6 +12,7 @@ import Pointer from './Pointer'
 import Palette from './Palette'
 import Splash from './Splash'
 import Background from './Background'
+import Dashes from './Dashes'
 
 const SVGselector = ({ type, size = 96, ...props }) => {
     const components = {
@@ -28,7 +29,8 @@ const SVGselector = ({ type, size = 96, ...props }) => {
         pointer: Pointer,
         palette: Palette,
         splash: Splash,
-        background: Background
+        background: Background,
+        dashes: Dashes
     };
 
     const SelectedComponent = components[type];

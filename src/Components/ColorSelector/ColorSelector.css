@@ -7,7 +7,7 @@
     display: flex;
 
 }
-.splash-wrapper{
+.splash-wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -27,4 +27,19 @@
 
 .splash-wrapper.opened {
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .palette-container {
+        height: 100%;
+        flex-direction: column-reverse;
+    }
+    .splash-wrapper{
+        height: 0;
+        width: auto;
+        flex-direction: column-reverse;
+    }
+    .splash-wrapper.opened {
+        height: 100%;
+    }   
 }

@@ -82,6 +82,7 @@ const Home = () => {
             <section>
                 <div className="titles-container">
                     <h2><span>{get("title-skills-utf")}</span>{get("title-skills")}</h2>
+                    <NavLink to='/skills'>{get("title-see-all")}</NavLink>
                 </div>
 
                 <div className="home-skills-wrapper">

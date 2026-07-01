@@ -19,14 +19,21 @@
 .fullskills-container {
     display: flex;
     justify-content: center;
+    padding-bottom: 6rem;
 }
 
 .fullskills-buttons-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 150px;
+    /* justify-content: center; */
+    width: 200px;
     gap: 8px;
+}
+
+
+.fullskills-buttons-container h2 {
+    color: var(--primary);
+    padding: 24px 0 8px 8px;
 }
 
 .fullskills-buttons-container button {
@@ -41,39 +48,118 @@
 
 .fullskills-cards-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-self: center;
+    width: 100%;
     margin: 0 40px;
+}
+
+.fullskills-cards-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 24px 0 24px;
+    width: 600px;
+}
+
+.fullskills-cards-top-info {
+    /* padding-left: 4px; */
+    max-width: 70%;
+}
+
+.fullskills-cards-top-proficiency {
+    display: flex;
+    flex-direction: column;
+}
+
+.fullskills-cards-subcategory {
+    display: flex;
+    align-self: flex-start;
+    gap: 12px;
+    padding: 24px 0 0 60px;
+}
+
+.fullskills-cards-subcategory span {
+    border: 1px solid var(--secondary);
+    background-color: var(--glow);
+    padding: 4px 12px;
+    border-radius: 12px;
 }
 
 .fullskills-cards-image-wrapper {
     position: relative;
-    max-width: 100%;
-    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    width: 100%;
     z-index: 1;
-    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='32' ry='32' stroke='%23333' stroke-width='3' stroke-dasharray='18%2c 19' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
     border-radius: 32px;
 }
 
-.fullskills-cards-container img {
-    margin: 24px;
-    border-radius: calc(32px - 24px);
+.fullskills-cards-image-wrapper-dashes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.fullskills-cards-image-wrapper-dashes rect {
+    width: calc(100% - 20px);
+    /* height: calc(80%); */
+    height: calc(100% - 20px);
+}
+
+.fullskills-cards-container img,
+.fullskills-cards-container video {
+    cursor: pointer;
+    margin: 28px 30px;
+    width: calc(100% - 60px);
+    max-width: 600px;
+    width: 600px;
+    /* border-radius: calc(32px - 24px); */
+}
+
+.fullskills-cards-other-images-wrapper h2 {
+    border-bottom: 1px solid var(--glow);
+    padding: 0 8px 8px 0;
+    margin-left: 32px;
+}
+
+.fullskills-cards-other-images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* max-width: 520px; */
+    /* width: 100%; */
+    max-height: calc(120px*9);
+
+}
+
+.fullskills-cards-other-images img,
+.fullskills-cards-other-images video {
+    cursor: pointer;
+    /* max-height: 100px; */
+    min-width: 200px;
+    /* max-width: 200px; */
+    max-height: 120px;
+    /* height: 200px; */
+    object-fit: cover;
+    width: auto;
+    box-shadow: 2px 2px 6px var(--border),
+        -2px -2px 6px var(--glow);
 }
 
 .fullskills-cards-overlay {
-    border: 1px solid var(--secondary);
+    border: 2px solid var(--secondary);
     border-radius: 50%;
-    overflow: hidden;   
+    /* overflow: hidden; */
     position: absolute;
-    top: 24px;
+    top: 16px;
     left: 50%;
 
     transform: translate(-50%, -50%);
-    z-index: 10; 
-}
-
-.fullskills-cards-description {
-    margin: 20px 40px;
+    z-index: 10;
 }
 
 .fullskills-buttons-container button {
@@ -82,7 +168,7 @@
     padding: 12px 24px;
     border: 1px solid var(--secondary);
     cursor: pointer;
-    border-radius: 24px;
+    border-radius: 12px;
     position: relative;
     z-index: 0;
     overflow: hidden;
