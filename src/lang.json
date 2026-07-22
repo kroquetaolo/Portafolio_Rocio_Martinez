@@ -15,10 +15,20 @@
         "title-skills": "Habilidades",
         "title-skills-utf": "#",
         "title-see-all": "Ver Todos ❱",
+        "skills-categories": "Categorias",
+        "skills-featured": "Proyectos Destacados",
         "link_whatsapp": "https://api.whatsapp.com/send?phone=5491176083762&text=Hola%20Roc%C3%ADo%2C%20te%20escribo%20desde%20tu%20p%C3%A1gina%20web",
         "link_instagram": "https://www.instagram.com/moonzkyart/",
         "link_linkedin": "https://www.instagram.com/moonzkyart/",
-        "link_devianart": "https://www.deviantart.com/chelonocturno"
+        "link_devianart": "https://www.deviantart.com/chelonocturno",
+        "rating-level-0": "Inexperta",
+        "rating-level-1": "Principiante",
+        "rating-level-2": "Básica",
+        "rating-level-3": "Intermedia",
+        "rating-level-4": "Avanzada",
+        "rating-level-5": "Experta",
+        "not_found": "La página que buscas no existe o fue eliminada",
+        "back-home": "Volver al inicio"
     },
     "en": {
         "home": "Home",
@@ -36,9 +46,19 @@
         "title-skills": "Skills",
         "title-skills-utf": "#",
         "title-see-all": "View All ❱",
+        "skills-categories": "Categories",
+        "skills-featured": "Featured Projects",
         "link_whatsapp": "https://api.whatsapp.com/send?phone=5491176083762&text=Hello%20Rocio%2C%20I'm%20writing%20from%20your%20website",
         "link_instagram": "https://www.instagram.com/moonzkyart/",
         "link_linkedin": "https://www.instagram.com/moonzkyart/",
-        "link_devianart": "https://www.deviantart.com/chelonocturno"
+        "link_devianart": "https://www.deviantart.com/chelonocturno",
+        "rating-level-0": "Inexperienced",
+        "rating-level-1": "Beginner",
+        "rating-level-2": "Basic",
+        "rating-level-3": "Intermediate",
+        "rating-level-4": "Advanced",
+        "rating-level-5": "Expert",
+        "not_found": "The page you are looking for does not exist or has been deleted",
+        "back-home": "Back to home"
     }
 }

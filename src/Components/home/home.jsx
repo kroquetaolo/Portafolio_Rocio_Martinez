@@ -4,12 +4,11 @@ import cards_works from '../../cards_home.json'
 import Cards from "../Cards/Cards"
 import { NavLink } from "react-router-dom"
 import SVGselector from "../SVGcomp/SVGselector"
-import skills_config from "../../cards_skills.json"
 import Rating from "../Utils/Rating"
 import { LanguageContext } from "../Language/LanguageContext"
 
 const Home = () => {
-    const { get } = useContext(LanguageContext)
+    const { get, getSkills } = useContext(LanguageContext)
     const [pageLoaded, setPageLoaded] = useState(false);
 
     useEffect(() => {
@@ -87,7 +86,7 @@ const Home = () => {
 
                 <div className="home-skills-wrapper">
                     <div className="home-skills-container"> {
-                        Object.entries(skills_config).map(([id, item]) => (
+                        Object.entries(getSkills()).map(([id, item]) => (
                             <div className="home-skills-item" key={id}>
                                 <div className="home-skills-svg"><SVGselector type={id} /> <p className="home-skills-svg-text">{item.name}</p></div>
                                 <div className="home-skills-rating">

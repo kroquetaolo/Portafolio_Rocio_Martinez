@@ -31,7 +31,7 @@
 
 @media (max-width: 768px) {
     .palette-container {
-        height: 100%;
+        height: auto;
         flex-direction: column-reverse;
     }
     .splash-wrapper{

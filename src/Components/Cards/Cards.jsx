@@ -83,10 +83,10 @@ const Cards = ({ info }) => {
                     info.images.length > 1 ? (
                         info.images.map(img => ({ src: `/images/${img}`, title: subtitle, description: `${title}\n\n${description}` }))
                     )
-                        :
-                        (
-                            [{ src: `/images/${info.images[0]}`, title: subtitle, description: `${title}\n\n${description}` }]
-                        )
+                    :
+                    (
+                        [{ src: `/images/${info.images[0]}`, title: subtitle, description: `${title}\n\n${description}` }]
+                    )
                 }
             />
         </div>

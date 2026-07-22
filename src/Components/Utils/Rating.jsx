@@ -1,4 +1,6 @@
+import { useContext } from 'react'
 import SVGselector from '../SVGcomp/SVGselector'
+import { LanguageContext } from '../Language/LanguageContext'
 
 export default function Rating({ value, max = 5, size = 16 }) {
     const normalized = Number.isInteger(value)
@@ -29,14 +31,16 @@ export default function Rating({ value, max = 5, size = 16 }) {
     )
 }
 
+
 export function RatingToString({ level }) {
+    const { get } = useContext(LanguageContext)
     const levels = [
-        "Inexperta",
-        "Principiante",
-        "Básica",
-        "Intermedia",
-        "Avanzada",
-        "Experta"
+        get("rating-level-0"),
+        get("rating-level-1"),
+        get("rating-level-2"),
+        get("rating-level-3"),
+        get("rating-level-4"),
+        get("rating-level-5")
     ];
 
     const clamped = Math.max(0, Math.min(5, level));

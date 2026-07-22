@@ -1,10 +1,13 @@
-import React from "react"
+import React, { useContext } from "react"
 import SVGselector from "../SVGcomp/SVGselector"
 import Rating, { RatingToString } from "../Utils/Rating"
 import SkillsImages from "../Skills/SkillsImages"
+import { LanguageContext } from "../Language/LanguageContext"
 
 
 const CardsSkills = ({ item, skill, dash }) => {
+
+    const { get } = useContext(LanguageContext);
 
     const isVideo = (file) => {
         return file.toLowerCase().endsWith(".mp4");
@@ -46,7 +49,7 @@ const CardsSkills = ({ item, skill, dash }) => {
                 <SVGselector className="fullskills-cards-overlay" type={skill} />
             </div>
             <div className="fullskills-cards-other-images-wrapper">
-                <h2>Proyectos Destacados</h2>
+                <h2>{get("skills-featured")}</h2>
                 {
                     item.images && item.images.length > 0 && (
                         <div className="fullskills-cards-other-images">

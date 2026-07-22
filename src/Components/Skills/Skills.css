@@ -19,6 +19,7 @@
 .fullskills-container {
     display: flex;
     justify-content: center;
+    width: 100%;
     padding-bottom: 6rem;
 }
 
@@ -36,21 +37,12 @@
     padding: 24px 0 8px 8px;
 }
 
-.fullskills-buttons-container button {
-    background-color: var(--botton-color);
-    color: var(--text-primary);
-    padding: 12px 24px;
-    border: 1px solid var(--secondary);
-    cursor: pointer;
-    border-radius: 24px;
-    width: 100%;
-}
 
 .fullskills-cards-container {
     display: flex;
     flex-direction: row;
     justify-self: center;
-    width: 100%;
+    /* width: 100%; */
     margin: 0 40px;
 }
 
@@ -92,7 +84,7 @@
     flex-direction: column;
     align-items: center;
     height: max-content;
-    width: 100%;
+    width: 620px;
     z-index: 1;
     border-radius: 32px;
 }
@@ -116,7 +108,7 @@
     margin: 28px 30px;
     width: calc(100% - 60px);
     max-width: 600px;
-    width: 600px;
+    width: calc(100% - 60px);
     /* border-radius: calc(32px - 24px); */
 }
 
@@ -128,22 +120,19 @@
 
 .fullskills-cards-other-images {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    /* max-width: 520px; */
+    width: 530px;
     /* width: 100%; */
-    max-height: calc(120px*9);
+    /* max-height: calc(120px*9); */
 
 }
 
 .fullskills-cards-other-images img,
 .fullskills-cards-other-images video {
     cursor: pointer;
-    /* max-height: 100px; */
-    min-width: 200px;
-    /* max-width: 200px; */
-    max-height: 120px;
-    /* height: 200px; */
+    width: 200px !important;
+    height: 120px !important;
     object-fit: cover;
     width: auto;
     box-shadow: 2px 2px 6px var(--border),
@@ -171,7 +160,6 @@
     border-radius: 12px;
     position: relative;
     z-index: 0;
-    overflow: hidden;
 }
 
 .fullskills-buttons-container button::before {
@@ -187,4 +175,72 @@
 
 .fullskills-buttons-container button:hover::before {
     opacity: 0.55;
+}
+
+@media (max-width: 1080px) {
+    .fullskills-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fullskills-frontpage h1 {
+        margin: 2rem;
+    }
+
+    .fullskills-cards-container {
+        margin-top: 3.25rem;
+    }
+
+    .fullskills-buttons-container {
+        /* justify-content: center; */
+        flex-direction: row;
+        width: 100vw;
+        overflow-x: scroll !important;
+        padding: 0 24px;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .fullskills-cards-image-wrapper {
+        justify-content: flex-start ;
+        width: auto;
+    }
+
+    .fullskills-cards-top-info {
+        margin-top: 12px;
+    }
+    .fullskills-cards-other-images-wrapper {
+        width: 100%;
+    }
+    .fullskills-cards-other-images {
+        justify-content: space-between;
+        gap: 24px;
+        width: auto;
+        padding: 24px 24px;
+    }
+    .fullskills-cards-other-images img, .fullskills-cards-other-images video {
+        margin: 0;
+    }
+
+    .fullskills-cards-top {
+        width: 100%;
+        padding: 60px 24px 0 24px;
+    }
+
+    .fullskills-cards-subcategory {
+        width: auto;    
+        flex-wrap: wrap;    
+        padding: 24px 0 0 24px;
+    }
+
+    .fullskills-buttons-container h2 {
+        display: none;
+    }
+
+    .fullskills-cards-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 40px 0  ;
+    }
 }
