@@ -213,7 +213,7 @@
         width: 100%;
     }
     .fullskills-cards-other-images {
-        justify-content: space-between;
+        justify-content: center;
         gap: 24px;
         width: auto;
         padding: 24px 24px;
