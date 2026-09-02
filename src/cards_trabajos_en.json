@@ -233,6 +233,16 @@
     "Editorial Illustrations": [
         {
             "images": [
+                "editorial/portada01.png",
+                "editorial/portada02.png"
+            ],
+            "subtitle": "Editorial Illustration",
+            "title": "Portada",
+            "info": "Editorial illustration for Un elefante ocupa mucho espacio.",
+            "position": "right 10%"
+        },
+        {
+            "images": [
                 "editorial/payasos salto.png"
             ],
             "subtitle": "Editorial Illustration",
@@ -242,6 +252,7 @@
         },
         {
             "images": [
+                "editorial/cirquelorofinal.png",
                 "editorial/pint cirquero y loro.png"
             ],
             "subtitle": "Editorial Illustration",
@@ -251,6 +262,7 @@
         },
         {
             "images": [
+                "editorial/guardafinal.png",
                 "editorial/principal.png"
             ],
             "subtitle": "Editorial Illustration",
@@ -260,6 +272,7 @@
         },
         {
             "images": [
+                "editorial/finalfinal.png",
                 "editorial/principal2.png"
             ],
             "subtitle": "Editorial Illustration",
@@ -289,6 +302,7 @@
         },
         {
             "images": [
+                "editorial/libre2.jpg",
                 "editorial/SCENE6b.png"
             ],
             "subtitle": "Editorial Illustration",
@@ -298,6 +312,7 @@
         },
         {
             "images": [
+                "editorial/elf.png",
                 "editorial/SCENEee pisandopng.png"
             ],
             "subtitle": "Editorial Illustration",
